@@ -5,7 +5,7 @@ import React from 'react';
 import { faBed, faRestroom } from '@fortawesome/free-solid-svg-icons';
 
 const Room = (props) => {
-    const { title, imgUrl,description, bed, capacity } = props.room;
+    const { title, imgUrl,description, bed, capacity, price } = props.room;
     return (
         <div className="room">
             <div className='roomTop'>
@@ -24,7 +24,7 @@ const Room = (props) => {
                 <span><FontAwesomeIcon icon={faRestroom} />:</span>
                 <h2>{capacity}</h2>
                 <span>$:</span>
-                <h2>{capacity}</h2>
+                <h2>{price}</h2>
                 <button>Book</button>
             </div>
         </div>
