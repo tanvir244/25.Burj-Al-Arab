@@ -1,0 +1,44 @@
+.room{
+    margin-right: 40px;
+}
+.roomTop span{
+    color: #F44336;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.roomTop p{
+    color: #000;
+}
+.roomTop{
+    display: flex;
+    align-items: center;
+}
+.roomMidle img{
+    width: 100%;
+}
+.paragraph p{
+    color: rgba(0, 0, 0, 0.54);
+    padding: 20px 0;
+}
+.roomBottom{
+    display: flex;
+}
+.roomBottom span{
+    color: #F44336;
+    font-size: 25px;
+}
+.roomBottom h2{
+    margin-right: 50px;
+    margin-left: 5px;
+    color: #000;
+}
+.roomBottom button{
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+}
+.roomBottom button:hover{
+    background-color: white;
+    color: #3f51b5;
+}
+
